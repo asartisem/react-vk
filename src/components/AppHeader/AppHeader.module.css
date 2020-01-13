@@ -1,5 +1,18 @@
-@value appInlineSize: 1076px;
+@value sizes: "../SharedStyles/Sizes.module.css";
+@value appInlineSize, headerBlockSize from sizes;
 
 .header {
+  background: #4a76a8;
+}
+
+.headerContent {
+  height: headerBlockSize;
   width: appInlineSize;
+  display: flex;
+  background: inherit;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
 }
