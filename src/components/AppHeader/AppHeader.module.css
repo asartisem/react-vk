@@ -1,0 +1,5 @@
+@value appInlineSize: 1076px;
+
+.Header {
+  width: appInlineSize;
+}
