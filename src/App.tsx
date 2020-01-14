@@ -6,7 +6,7 @@ import {AppHeader} from "./components/AppHeader/AppHeader";
 const App: React.FC = () => {
   return (
     <div className="App">
-      <AppHeader></AppHeader>
+      <AppHeader/>
       <main className={s.AppBody}>
         <img src={logo} className={s.AppLogo} alt="logo" />
         <p>
